@@ -1,0 +1,9 @@
+/build/
+/.gradle/
+/out/
+.DS_Store
+.idea/
+*.iml
+*.log
+*.class
+hs_err_pid*
