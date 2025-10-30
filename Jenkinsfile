@@ -1,10 +1,6 @@
 pipeline {
-    // Java 17이 설치된 Docker 이미지를 빌드 환경(agent)으로 지정합니다.
-    agent {
-        docker {
-            image 'eclipse-temurin:17-jdk-jammy'
-        }
-    }
+    // Jenkins 노드에 Java 17이 설치되어 있다고 가정하고 기본 agent를 사용합니다.
+    agent any
 
     // Gradle 캐시를 위한 환경 변수 설정 (기존과 동일)
     environment {
