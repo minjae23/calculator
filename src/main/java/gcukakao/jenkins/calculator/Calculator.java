@@ -16,9 +16,7 @@ public class Calculator {
     public int div(int a, int b) {
         return a / b;
     }
-    private static final String NAME = "gimminjae";
-
     public String printName() {
-        return NAME;
+        return "gimminjae";
     }
 }
